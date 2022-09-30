@@ -1,0 +1,5 @@
+1st commit 
+Tampilan home  beserta navbar
+
+2nd commit 
+Menambah konten home dan juga page biodata
