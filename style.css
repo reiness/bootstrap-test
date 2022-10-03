@@ -5,6 +5,7 @@
 
 body {
     font-family:  sans-serif;
+    
 }
 
 #nav-bar {
@@ -15,12 +16,13 @@ body {
 
 .navbar {
     background-image: linear-gradient(to right, #862d3f, black);  /* alternate --> #ed4264, #ffedbc */
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .navbar-brand img {
     height: 40px;
     padding-left: 20px;
+    
 }
 
 .navbar-nav li {
@@ -37,6 +39,11 @@ body {
     color: rgb(88, 43, 32);
     transition: 1s;
 }
+
+.navbar-toggler-icon {
+    background-color : whitesmoke;
+}
+
 
 /*----------------- BANNER -----------------*/
 
