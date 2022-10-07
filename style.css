@@ -3,10 +3,16 @@
     padding: 0;
 }
 
-body {
+body.home
+{
     font-family:  sans-serif;
-    
+    background: url('decor/homepage.png') no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
+    
+
 
 #nav-bar {
     position: sticky;
@@ -15,7 +21,7 @@ body {
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #862d3f, black);  /* alternate --> #ed4264, #ffedbc */
+    background-image: linear-gradient(to right, #5FA5AC, #29272E);  /* alternate --> #ed4264, #ffedbc */
     padding: 0 !important;
 }
 
@@ -36,38 +42,13 @@ body {
 }
 
 .navbar-nav a:hover {
-    color: rgb(88, 43, 32);
+    color: #a0f9f8;
     transition: 1s;
 }
 
 .navbar-toggler-icon {
     background-color : whitesmoke;
 }
-
-
-/*----------------- BANNER -----------------*/
-
-#banner {
-    background-image: linear-gradient(to right, #a53249, rgb(26, 1, 1));
-    color: #fff;
-    padding-top: 5%;
-}
-
-.promo-title {
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 100px;
-}
-
-.col-md-6 {
-    padding-bottom: 5%
-}
-
-.bottom-img {
-    width: 100%;
-}
-
-
 
 
 

@@ -9,3 +9,6 @@ Mengganti background-color utk navbar-toggler-icon & menambah page sesuai ketent
 
 4th commit
 Adding Azhar's assets
+
+5th commit
+Changing background image for homepage & adjusting navbar
