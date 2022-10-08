@@ -12,3 +12,6 @@ Adding Azhar's assets
 
 5th commit
 Changing background image for homepage & adjusting navbar
+
+6th commit
+change homepage and theme adjustments
