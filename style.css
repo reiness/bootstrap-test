@@ -15,50 +15,136 @@
 
 /* Typography */
 /**************************/
-#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
-#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
-#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
-#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+#parallax-home h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-home h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+#parallax-home h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-home p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
 .first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+.second-character {font-weight:400; float: right; font-size: 72px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+.bye1, .bye2{font-weight:300; font-size: 32px;}
 
 .sc {color: #3b8595;}
 .ny {color: #3d3c3a;}
-.atw {color: #c48660;}
+
 
 /* Section - Title */
 /**************************/
-#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
-#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+#parallax-home .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-home .title h1 {font-size:48px; letter-spacing:10px;}
+
 
 /* Section - Block */
 /**************************/
-#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
-#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
-#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+#parallax-home .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parallax-home .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-home .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(decor/epic_4x.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(decor/epic_4x.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-home .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(decor/epic_4x.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-home .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(decor/epic_4x.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-home .parallax-one h2{font-size: 148px; font-weight: 500;}
+#parallax-home .parallax-two h2{font-size: 128px;}
+#parallax-home .parallax-two h2:hover{
+    font-size: 200px;
+    transition: 1s; 
+}
+
+#parallax-home .parallax-two a{
+    text-decoration: none;
+    color:#fff
+
+}
+/* #parallax-home .parallax-two a:hover{
+    color: #ee2a7b;
+} */
+
 
 
 /* Extras */
 /**************************/
-#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+#parallax-home .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+
+/* ---JEPANG--- */
+.block span.first-character:hover{
+    background-image:linear-gradient(to right, 
+    #F26695,#FC6AFC, #B86BE6, #9E7AFF, #6976F5,
+    #9E7AFF, #B86BE6, #FC6AFC, #F26695);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    background-size: 300%;
+    background-position: -100%;
+
+    animation: animatedText 1.75s infinite;
+}
+
+/* ---KOREA--- */
+.block span.second-character:hover{
+    background-image:linear-gradient(to left, 
+    #52F2B1,#56FC7A, #76E65A, #CCFF66, #F5EF56,
+    #CCFF66, #76E65A, #56FC7A, #52F2B1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    background-size: 300%;
+    background-position: -100%;
+
+    animation: animatedText 3s infinite;
+}
+
+/* ---JEPANG LINK--- */
+#parallax-home .parallax-two a:hover{
+    background-image:linear-gradient(to left, 
+    #A87E28,#FFCD66, #F5BD49, #4E71A8, #A2C1F5,
+    #4E71A8, #F5BD49, #FFCD66, #A87E28);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    background-size: 300%;
+    background-position: -100%;
+
+    animation: animatedText 3s infinite;
+}
+
+
+@keyframes animatedText{
+    from{
+        background-position: 0%;
+
+    }
+
+    to{
+        background-position: 100%; 
+    }
+}
+
+.block span.bye1:hover{
+    color: hotpink;
+}
+
+.block span.bye2:hover{
+    color: rgb(56, 180, 72);
+}
+
 
 /* Media Queries */
 /**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
-  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+  #parallax-home .block {padding: 40px; width:620px;}
 }
 @media screen and (max-width: 767px) {
-  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
-  #parallax-world-of-ugg h2 {font-size:30px;}
-  #parallax-world-of-ugg .block {padding: 30px;}
-  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+  #parallax-home .block {padding: 30px; width:420px;}
+  #parallax-home h2 {font-size:30px;}
+  #parallax-home .block {padding: 30px;}
+  #parallax-home .parallax-one, #parallax-home .parallax-two, #parallax-home .parallax-three {padding-top:100px; padding-bottom:100px;}
 }
 @media screen and (max-width: 479px) {
-  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+  #parallax-home .block {padding: 30px 15px; width:290px;}
 }
 
 
@@ -69,6 +155,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body
@@ -79,7 +166,7 @@ body
 #nav-bar {
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 100000;
 }
 
 .navbar {
@@ -95,17 +182,21 @@ body
 
 .navbar-nav li {
     padding: 0 10px;
-
 }
 
 .navbar-nav li a {
     color: #fff ;
-    font-weight: 600;  
+    font-weight: 490;  
 }
 
-.navbar-nav a:hover {
+.navbar-nav a:hover{
     color: #a0f9f8;
     transition: 1s;
+}
+
+.navbar-nav a.actived{
+    color: #73c5c4;
+    font-weight: 650;  
 }
 
 .navbar-toggler-icon {
@@ -116,6 +207,294 @@ body
 /* ------------------------------------------ ACHIEVEMENTS --------------------------------------------------------------- */
 
 #achievements {
-    font-family: "Poppins";
+    background-color: #252733 ;
+}
+
+.sec-01{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;  
+}
+
+.achieve-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.achieve-title {
+    font-size: 4em;
+    margin-bottom: 50px ;
+}
+
+.achieve-content {
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achieve-content .image {
+    position: relative;
+    width: 800px;
+    height: 400px ;
+    overflow: hidden;
+}
+
+.achieve-content .image img {
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.achieve-content .achieve-text-box {
+    z-index: 222;
+    background: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255,255,255, 0.1);
+    border-radius: 10px;
+    transform: translate(-100px, 110px);
+}
+
+.achieve-content .achieve-text-box h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+}
+
+.achieve-icons{
+    margin-top: 100px;
+    margin: auto;
+}
+
+.achieve-icons a{
+    color: #fff;
+    font-size: 2em;
+    margin: 60px;
+}
+
+.achieve-text-2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.achieve-info{
+    width: 700px;
+    margin-left: 50px;
 
 }
+
+
+/* 2nd */
+.achieve-content .achieve-text-box2 {
+    z-index: 222;
+    background: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255,255,255, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, -100px);
+}
+
+
+
+/* 3rd */
+
+.achieve-title2{
+    font-size: 3em;
+    margin-bottom: 10px;
+
+}
+
+
+.achieve-content2 .image {
+    position: relative;
+    width: 800px;
+    height: 400px ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.achieve-content2 .achieve-text-box3 {
+    z-index: 222;
+    background: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 50px;
+    max-width: 600px;
+    border: 1px solid rgba(255,255,255, 0.1);
+    border-radius: 10px;
+    transform: translate(100px, -39px);
+}
+
+.achieve-container2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* ------------------------------------------ MOMENTS --------------------------------------------------------------- */
+
+
+#moments{
+    height: 100vh;
+    background: #2f3238;
+    
+}
+
+.moments-container{
+    margin: 30px;
+}
+
+.moments-row{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.moments-image{
+    background: #50A7ff;
+    position: relative;
+    flex: 1;
+    max-width: 480px;
+    height: 360px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.moments-image img{
+    opacity: 0.8;
+    position: relative;
+    vertical-align: top;
+    transition: 0.6s;
+    transition-property: opacity;
+}
+
+.moments-image:hover img{
+    opacity: 1;
+}
+
+.moments-image .moments-details{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.moments-image .moments-details h2{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 70px;
+    transition: 0.4s;
+    transition-property: transform;
+}
+
+.moments-image .moments-details h2 span{
+    font-weight: 900;
+}
+
+.moments-image:hover .moments-details h2{
+    transform: translateY(-30px);
+}
+ 
+.moments-image .moments-details p{
+    margin: 30px 30px 0 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    transition: 0.6s;
+    transition-property: opacity, transform;
+
+}
+
+.moments-image:hover .moments-details p{
+    opacity: 1;
+    transform: translateY(-40px);
+}
+
+.moments-more{
+    position: absolute;
+    background: rgba(255,255,255, 0.8);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    bottom: -60px;
+    transition: 0.6s;
+    transition-property: bottom;
+}
+
+.moments-image:hover .moments-more{
+    bottom: 0;
+}
+
+.moments-more .moments-read-more{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.moments-more .moments-read-more span {
+    font-weight: 900;
+}
+
+.moments-more .moments-icon-links i {
+    color: #000;
+    font-size: 20px;
+}
+
+.moments-more .moments-icon-links a:not(:last-child) i {
+    margin-right: 20px;
+}
+
+/* Responsive CSS */
+@media (max-width: 1080px){
+    .moments-image{
+        flex: 100%;
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 400px){
+    .moments-image .moments-details p{
+        font-size: 16px;
+    }
+
+    .moments-more .moments-read-more, .moments-more .moments-icon-links i{
+        font-size: 18px; 
+    }
+}
+
+
+
+/* ------------------------------------------ TIMELINE --------------------------------------------------------------- */
+
+
+
+
