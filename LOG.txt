@@ -18,3 +18,6 @@ change homepage and theme adjustments
 
 7th commit
 polishing homepage, adding achievements, moments, deleting socmed
+
+8th commit
+adding bio pages and more assets
