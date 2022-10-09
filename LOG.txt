@@ -21,3 +21,15 @@ polishing homepage, adding achievements, moments, deleting socmed
 
 8th commit
 adding bio pages and more assets
+
+---------------------------------
+Creating branch for parallax-bio
+---------------------------------
+
+1st parallax-bio commit
+Adjusting parallax for bio and fixing border-radius
+
+----------------------------------------
+Merging parallax-bio with origin/master
+----------------------------------------
+
