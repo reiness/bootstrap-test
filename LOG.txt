@@ -33,6 +33,10 @@ Adjusting parallax for bio and fixing border-radius
 adjusting timelines
 
 ----------------------------------------
-Merging parallax-bio with origin/master
+Merging parallax-bio with master
+----------------------------------------
+
+----------------------------------------
+Checkout to master
 ----------------------------------------
 

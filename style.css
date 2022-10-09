@@ -784,6 +784,9 @@ a:hover {
     min-height: 100vh;
 }
 
+
+
+
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
     position: absolute;
@@ -1039,9 +1042,9 @@ a:hover {
     line-height: 1.2;
     transform: translate3d(0, 0, 30px) perspective(100px);
     box-shadow: #0c1c00;
-    left: 100px;
-    top: 200px;
-    z-index: 100;
+    left: 130px;
+    top: -245px;
+    z-index: 1000;
     font-family: "Oswald",'sans-serif';
     letter-spacing: 2px;
 }
@@ -1070,9 +1073,6 @@ a:hover {
 }
 
 
-
-
-
 .link:hover {
     color: #102770;
     background-color: #ffeba7;
@@ -1096,8 +1096,8 @@ a:hover {
 .img-1 {
     position: absolute;
     display: block;
-    left: -160px;
-    top: 78px;
+    left: -125px;
+    top: -65px;
     z-index: 5;
     width: calc(80% + 160px);
     transform: translate3d(0, 0, 45px) perspective(100px);
@@ -1174,7 +1174,8 @@ a:hover {
     transition: transform 400ms 1300ms ease, opacity 300ms 1300ms ease;
 }
 
-/*----------------------------------------------------------------------- Bio Ridhok ------------------------------------------------ */
+/*----------------------------------------------------------------------- Bio dewe-dewe ------------------------------------------------ */
+
 
 
 .character-bio1 {
@@ -1213,7 +1214,7 @@ a:hover {
 
 .content-bio h1 {
     color: white;
-    margin: 20px 0px 20pox;
+    margin: 20px 0px 20px;
     font: size 70px;
 }
 
@@ -1226,6 +1227,14 @@ a:hover {
 
 .content-bio h3 span {
     color: #B62D2D
+}
+
+.content-bio .quote h2{
+    font-size: 98px;
+    color: white;
+    margin: 200px 150px 0px;
+    text-align: right;
+    
 }
 
 .about {
@@ -1272,6 +1281,10 @@ a:hover {
     text-transform: capitalize;
 }
 
+.about-text h5 {
+    color: #B62D2D;
+    }
+
 .about-text p {
     color: white;
     letter-spacing: 1px;
@@ -1279,6 +1292,32 @@ a:hover {
     font-size: 18px;
     margin-bottom: 45px;
 }
+
+.about-text p span {
+    color: #B62D2D;
+}
+
+.about-text p span:hover {
+    color: #eb5a5a;
+}
+
+
+.like-info a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.like-info a:hover{
+    color: #c2e9fc;
+    
+}
+
+.like-info h2{
+    margin-top: 150px
+    
+}
+
 
 /* like */
 #like {
@@ -1718,4 +1757,19 @@ a:hover {
         margin: 1em 4em 0 4em;
     }
 
+}
+
+.tl-btn a{
+    color:black ;
+    text-decoration: none;
+}
+.tl-btn a:hover{
+    color: rgb(250, 80, 80);
+    
+}
+
+.tl-btn h2{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
 }
