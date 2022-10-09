@@ -1097,7 +1097,7 @@ a:hover {
     position: absolute;
     display: block;
     left: -125px;
-    top: -65px;
+    top: 80px;
     z-index: 5;
     width: calc(80% + 160px);
     transform: translate3d(0, 0, 45px) perspective(100px);
