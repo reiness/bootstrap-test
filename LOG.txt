@@ -29,6 +29,9 @@ Creating branch for parallax-bio
 1st parallax-bio commit
 Adjusting parallax for bio and fixing border-radius
 
+2nd , 3rd, 4th parallax-bio commit
+adjusting timelines
+
 ----------------------------------------
 Merging parallax-bio with origin/master
 ----------------------------------------
